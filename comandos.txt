@@ -1,0 +1,16 @@
+primero creamos una carpeta 
+  mdkir 
+
+inicializamos en git bash
+  npm init
+
+instalamos babel - transcribe el codigo de JS moderno que creamos y lo hace compatible para cualquier navegadores
+          @babel/core : incluye toda la libreria de babel.
+          babel-loader : Este paquete permite transpilar archivos JavaScript utilizando Babel y webpack .
+          html-webpack-plugin: Permite copiar los archivos HTML del proyecto.
+          webpack-cli: Permite manejar ciertos comandos
+          webpack-dev-server : Permite crear un entorno de desarrollo local para probar los cambios que se esta realizando.
+          –save-dev : Permite instalar un conjunto de dependencia en la modalidad de desarrollo para el archivo packet jsom
+  npm install @babel/core babel-loader html-webpack-plugin webpack webpack-cli webpack-dev-server --save-dev
+
+creamos webpack.config.js y agregamos la configuración que necesitamos
