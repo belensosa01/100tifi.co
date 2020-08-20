@@ -14,3 +14,6 @@ instalamos babel - transcribe el codigo de JS moderno que creamos y lo hace comp
   npm install @babel/core babel-loader html-webpack-plugin webpack webpack-cli webpack-dev-server --save-dev
 
 creamos webpack.config.js y agregamos la configuración que necesitamos
+
+npm install copy-webpack-plugin --save-dev
+  
